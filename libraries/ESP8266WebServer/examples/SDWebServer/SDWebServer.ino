@@ -21,7 +21,7 @@
   Have a FAT Formatted SD Card connected to the SPI port of the ESP8266
   The web root is the SD Card root folder
   File extensions with more than 3 charecters are not supported by the SD Library
-  File Names longer than 8 charecters will be truncated by the SD library, so keep filenames shorter
+  File Names longer than 8 characters will be truncated by the SD library, so keep filenames shorter
   index.htm is the default index (works on subfolders as well)
 
   upload the contents of SdRoot to the root of the SDcard and access the editor by going to http://esp8266sd.local/edit
